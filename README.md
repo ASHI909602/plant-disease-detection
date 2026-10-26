@@ -2,7 +2,7 @@
 
 Deep learning model that classifies plant leaf images into **38 disease / healthy classes** using transfer learning (EfficientNetB0, PyTorch), with a Gradio web demo.
 
-**Live demo:** https://AAPKA-LINK.streamlit.app
+**Live demo:** https://Plant Doctor AI.streamlit.app
 
 ## Dataset
 [PlantVillage](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset) (`color` folder): 54,305 images, 38 classes, 14 crop species.
