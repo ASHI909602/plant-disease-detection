@@ -19,8 +19,8 @@ Deep learning model that classifies plant leaf images into **38 disease / health
 |---|---|
 | Test accuracy | **99.85%** |
 
-![Training curves](images/training_curves.png)
-![Confusion matrix](images/confusion_matrix.png)
+![Training curves](training_curves.png)
+![Confusion matrix](confusion_matrix.png)
 
 ## Limitations
 - PlantVillage images are taken in lab conditions on plain backgrounds, and the dataset contains multiple photos of the same leaf. With a random split, near-duplicate images can appear in both train and test sets, so the test accuracy is likely higher than real-world performance.
