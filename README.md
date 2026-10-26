@@ -2,7 +2,7 @@
 
 Deep learning model that classifies plant leaf images into **38 disease / healthy classes** using transfer learning (EfficientNetB0, PyTorch), with a Gradio web demo.
 
-**Live demo:** <Hugging Face Space link yahan daalo>
+**Live demo:** https://AAPKA-LINK.streamlit.app
 
 ## Dataset
 [PlantVillage](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset) (`color` folder): 54,305 images, 38 classes, 14 crop species.
@@ -26,6 +26,7 @@ Deep learning model that classifies plant leaf images into **38 disease / health
 - PlantVillage images are taken in lab conditions on plain backgrounds, and the dataset contains multiple photos of the same leaf. With a random split, near-duplicate images can appear in both train and test sets, so the test accuracy is likely higher than real-world performance.
 - The model only knows these 38 classes and may give confident but wrong answers for other crops or diseases.
 - Not a replacement for expert diagnosis.
+- - Tested on a few field photos, the model made confident mistakes (e.g. labelled an apple leaf as grape black rot). The model covers only the 14 PlantVillage crops (e.g. not brinjal/eggplant). The app shows a warning when confidence is below 60%.
 
 ## Future work
 - Fine-tune on field images (e.g. PlantDoc) for better real-world robustness
